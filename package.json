@@ -1,0 +1,24 @@
+{
+  "name": "rpc",
+  "version": "1.0.0",
+  "description": "Rpc requests to firebase.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakubMrozek/rpc.git"
+  },
+  "keywords": [],
+  "author": "Jakub Mrozek <jakub.mrozek@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JakubMrozek/rpc/issues"
+  },
+  "homepage": "https://github.com/JakubMrozek/rpc#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pg-promise": "^5.2.4"
+  }
+}
