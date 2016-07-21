@@ -1,4 +1,5 @@
 const express = require('express')
+const bodyParser = require('body-parser')
 const pgp = require('pg-promise')()
 
 const PORT = process.env.PORT || 8000
@@ -7,6 +8,10 @@ const DB_URL = process.env.DB_URL
 const db = pgp(DB_URL)
 
 const app = express()
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ 
+  extended: true 
+}))
 app.all('*', processRequst)
 app.listen(PORT)
 

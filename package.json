@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/JakubMrozek/rpc#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "pg-promise": "^5.2.4"
   }
