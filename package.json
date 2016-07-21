@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node server.js"
   },
+  "engines": {
+    "node": "6.3.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JakubMrozek/rpc.git"
